@@ -1,10 +1,9 @@
 {
   "name": "eruit-ui",
-  "description": "A Vue.js project",
+  "description": "vue component",
   "version": "1.0.0",
-  "author": "小英 <32158733@qq.com>",
+  "author": "anne",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
