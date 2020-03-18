@@ -3,11 +3,12 @@ import gridtree from "./components/gridtree/gridtree.vue"
 import leftright from "./components/leftright/leftright.vue"
 import login from "./components/login/login.vue"
 import mainlayout from "./components/mainlayout/mainlayout.vue"
+import newslist from "./components/newslit/list.vue"
 
 
 export default {
     install: function (Vue) {
-        var components = [button, gridtree, leftright, login, mainlayout];
+        var components = [button, gridtree, leftright, login, mainlayout, newslist];
         components.map(component => {
             Vue.component(component.name, component);
         })
@@ -16,5 +17,6 @@ export default {
     gridtree,
     leftright,
     login,
-    mainlayout
+    mainlayout,
+    newslist
 }
