@@ -3,7 +3,7 @@ import gridtree from "./components/gridtree/gridtree.vue"
 import leftright from "./components/leftright/leftright.vue"
 import login from "./components/login/login.vue"
 import mainlayout from "./components/mainlayout/mainlayout.vue"
-import newslist from "./components/newslit/list.vue"
+import newslist from "./components/newslist/list.vue"
 
 
 export default {
