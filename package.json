@@ -1,7 +1,7 @@
 {
   "name": "eruit-ui",
   "description": "vue component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "anne",
   "license": "MIT",
   "scripts": {
@@ -11,11 +11,11 @@
   "dependencies": {
     "vue": "^2.5.11"
   },
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/annezhong/eruit-ui.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annezhong/eruit-ui.git"
   },
-  "main":"src/index.js",
+  "main": "src/index.js",
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -32,6 +32,7 @@
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
+    "axios": "^0.16.2",
     "webpack-dev-server": "^2.9.1"
   }
 }
