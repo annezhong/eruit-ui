@@ -19,7 +19,6 @@
                 <ul class="page-more-buttons-con">
                     <li v-for="(item,index) in morebuttons" :key="index">
                         <slot name="morebutton" :item="item" :index="index"></slot>
-                        <!--<er-button @click="buttonhandler(item.FUNNAME)" custom-class="hover">{{item.ANMC}}</er-button>-->
                     </li>
                 </ul>
             </div>
@@ -32,11 +31,10 @@
 
 <script>
 export default {
-    nmae: "mainLayout",
     data: function() {
         return {};
     },
-    name: "mainlayout",
+    name: "manageLayout",
     props: {
         //工具栏按钮
         toolbuttons: {
@@ -51,20 +49,7 @@ export default {
             default: function() {
                 return [];
             }
-        },
-        //功能模块
-        jsonBtn: {
-            type: Object,
-            default() {
-                return {};
-            }
-        },
-        gnmk: {
-            type: String,
-            default: function() {
-                return "";
-            }
-        },
+        }, 
         //显示搜索区
         showSearch: {
             type: Boolean,
@@ -77,12 +62,6 @@ export default {
             type: Boolean,
             default: function() {
                 return true;
-            }
-        },
-        isCustom: {
-            type: Boolean,
-            default: function() {
-                return false;
             }
         }
     }
